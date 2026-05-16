@@ -50,13 +50,10 @@ npm install
 ### Step 3 — Run it
 
 ```bash
-# From inside the repo you want to analyze:
+# From inside the folder where your ghostwritter script is present open the terminal in bob ide:
 cd /path/to/your/repo
 
-node /path/to/ghostwriter-cli/ghostwriter.js \
-  --user "john-doe" \
-  --role "Led payments system for 4 years" \
-  --out ./.ghostwriter
+node ghostwriter.js --github your-github-repo-link --user your-user-name
 ```
 
 Or run interactively (it will ask you for username and role):
